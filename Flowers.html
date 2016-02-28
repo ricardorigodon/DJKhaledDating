@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+ <script type="text/javascript">
+    var index=0;
+    function changeBanner(){ 
+      [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
+      index = (index+1) % document.images.length;
+    }
+    window.onload = function () {setInterval(changeBanner, 4500)};
+  </script>
+
+  <style>
+
+    body
+    {
+      background-color: #555;
+      font-size : 250% ;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div>
+      <center>
+        <img src="https://pbs.twimg.com/profile_images/676922811475169280/BlSrIexO.jpg" width="900px" height="300px" />
+      <img src="http://cdn1.theodysseyonline.com/files/2015/12/20/635862402865072364-1292537467__1450378042.png" />
+      <img src="https://pbs.twimg.com/media/CWhieNpWoAMhpCN.jpg" width="900px" height="300px" />
+      <img src="http://www.rapbasement.com/wp-content/uploads/2013/07/398804_458615560819804_1567049175_n.jpg" width ="900px" height="300px" />
+      <img src="http://2.bp.blogspot.com/-yQ6DWlXsSKo/VngfVTGuiFI/AAAAAAAAErE/XqNIWBwgelw/s1600/watering%2Bplants.jpg" width="900px" height="300px" />
+      <img src="https://s-media-cache-ak0.pinimg.com/236x/db/86/7c/db867c16a150c8af7e967dacf27bb99a.jpg" />
+      <img src="http://weknowyourdreamz.com/images/flowers/flowers-06.jpg" width="900px" height="300px" />
+    </center>
+       
+         <center>  MY FAVORITE FLOWERS. I LOVE FLOWERS MAJOR KEY KEEP YOUR GARDEN IN CHECK. </center>  
+         <center> DON'T EVER PLAY YOURSELF ROSES HURT IF YOU DON'T CUT OFF THE THORNS </center>
+         <center> I REMEMBER I COULDN'T AFFORD TO HAVE A LION IN MY GARDEN </center>
+        <center>  THEY DON'T WANT US TO HAVE A GOOD GARDEN. </center> 
+        <center> THESE FLOWERS LOOK GREAT.  </center>
+        <center> MY MOUTH IS WATERING THINKING ABOUT WATERING THEM </center>
+
+    </div>
+  </div>
+</body>
+</html>
